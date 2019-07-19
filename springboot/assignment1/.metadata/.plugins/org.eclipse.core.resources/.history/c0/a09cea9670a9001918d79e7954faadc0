@@ -1,0 +1,5 @@
+package com.example.Register.Service.model;
+
+public class User {
+
+}

@@ -1,0 +1,87 @@
+package com.example.Trade.Service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+2019-07-19 13:43:02.158  INFO 2420 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6bd0c357] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+.   ____          _            __ _ _
+/\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+\\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+'  |____| .__|_| |_|_| |_\__, | / / / /
+=========|_|==============|___/=/_/_/_/
+:: Spring Boot ::        (v2.1.6.RELEASE)
+
+2019-07-19 13:43:02.226  INFO 2420 --- [           main] com.server.MyEurekaServerApplication     : No active profile set, falling back to default profiles: default
+2019-07-19 13:43:02.722  WARN 2420 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-19 13:43:02.888  INFO 2420 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fcc164ad-f7b1-383e-bf0b-20012eb2b2da
+2019-07-19 13:43:02.950  INFO 2420 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6bd0c357] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-19 13:43:03.107  INFO 2420 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-07-19 13:43:03.125  INFO 2420 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-19 13:43:03.125  INFO 2420 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-19 13:43:03.224  INFO 2420 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-19 13:43:03.224  INFO 2420 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 989 ms
+2019-07-19 13:43:03.290  WARN 2420 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-07-19 13:43:03.290  INFO 2420 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-19 13:43:03.295  INFO 2420 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3281dfc2
+2019-07-19 13:43:03.703  INFO 2420 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-07-19 13:43:03.740  INFO 2420 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-07-19 13:43:03.741  INFO 2420 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/Users/mkevede/.m2/repository/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2019-07-19 13:43:03.802  INFO 2420 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-07-19 13:43:03.802  INFO 2420 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-07-19 13:43:04.036  WARN 2420 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-07-19 13:43:04.036  INFO 2420 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-19 13:43:04.151  INFO 2420 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-19 13:43:04.473  INFO 2420 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-07-19 13:43:04.487  INFO 2420 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-07-19 13:43:04.488  INFO 2420 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-07-19 13:43:04.491  INFO 2420 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1563561784490 with initial instances count: 0
+2019-07-19 13:43:04.511  INFO 2420 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-07-19 13:43:04.512  INFO 2420 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2019-07-19 13:43:04.614  INFO 2420 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-07-19 13:43:04.614  INFO 2420 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-07-19 13:43:04.614  INFO 2420 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-07-19 13:43:04.614  INFO 2420 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-07-19 13:43:04.685  INFO 2420 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2019-07-19 13:43:04.691  INFO 2420 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-07-19 13:43:04.692  INFO 2420 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-07-19 13:43:04.700  INFO 2420 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-19 13:43:04.763  INFO 2420 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MY-EUREKA-SERVER with eureka with status UP
+2019-07-19 13:43:04.765  INFO 2420 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-07-19 13:43:04.766  INFO 2420 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-07-19 13:43:04.766  INFO 2420 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-07-19 13:43:04.772  INFO 2420 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-07-19 13:43:04.773  INFO 2420 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-07-19 13:43:04.773  INFO 2420 --- [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-07-19 13:43:04.773  INFO 2420 --- [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-07-19 13:43:04.773  INFO 2420 --- [      Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-07-19 13:43:04.779  INFO 2420 --- [      Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-07-19 13:43:04.804  INFO 2420 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-07-19 13:43:04.804  INFO 2420 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-07-19 13:43:04.808  INFO 2420 --- [           main] com.server.MyEurekaServerApplication     : Started MyEurekaServerApplication in 3.027 seconds (JVM running for 3.501)
+2019-07-19 13:43:18.227  INFO 2420 --- [nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-19 13:43:18.227  INFO 2420 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-19 13:43:18.233  INFO 2420 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-07-19 13:44:04.780  INFO 2420 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-07-19 13:45:04.786  INFO 2420 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2019-07-19 13:46:04.792  INFO 2420 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2019-07-19 13:46:31.661  INFO 2420 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance REGISTER-SERVICE/10.168.195.86:register-service with status UP (replication=false)
+2019-07-19 13:46:32.228  INFO 2420 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance REGISTER-SERVICE/10.168.195.86:register-service with status UP (replication=true)
+2019-07-19 13:47:04.795  INFO 2420 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-07-19 13:48:04.800  INFO 2420 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2019-07-19 13:49:04.802  INFO 2420 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+
+public class TradeServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TradeServiceApplication.class, args);
+	}
+
+}

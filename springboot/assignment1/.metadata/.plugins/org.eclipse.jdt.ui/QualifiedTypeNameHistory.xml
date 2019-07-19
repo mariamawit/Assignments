@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.example.Register.Service.service.RegisterService"/>
+    <fullyQualifiedTypeName name="com.example.Register.Service.model.User"/>
+    <fullyQualifiedTypeName name="com.example.Register.Service.repository.RegisterRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestHeader"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.example.Trade.Service.repository.TradeRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.ribbon.RibbonClient"/>
+    <fullyQualifiedTypeName name="com.example.Trade.Service.model.User"/>
+    <fullyQualifiedTypeName name="com.example.Trade.Service.services.TradeService"/>
+    <fullyQualifiedTypeName name="com.example.Trade.Service.model.Stock"/>
+</qualifiedTypeNameHistroy>
