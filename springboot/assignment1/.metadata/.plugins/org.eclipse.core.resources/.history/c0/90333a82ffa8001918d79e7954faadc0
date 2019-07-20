@@ -1,0 +1,23 @@
+package com.example.assignment2;
+
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class StockTradingController {
+	
+	@RequestMapping ("/mainPage")
+	public String mainPage(Map<String, Object> model) {
+		model.put("key1", "Wipro");
+		return "MainPage";
+	}
+	
+	@RequestMapping ("/register")
+	public String register(Map<String, Object> model) {
+		model.put("key1", "Wipro");
+		return "Register";
+	}
+	
+}

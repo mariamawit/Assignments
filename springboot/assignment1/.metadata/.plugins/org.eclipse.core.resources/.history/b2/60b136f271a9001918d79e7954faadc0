@@ -1,0 +1,36 @@
+package com.example.Register.Service.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+public class RegisterService {
+	
+	@Autowired
+	private InMemoryDatabase inMemoryDatabase;
+
+	public User loginUser(User user) {
+
+		user.setAuthToken("SAMPLE_VALID_TOKEN");
+		return this.inMemoryDatabase.getUserForLogin(user);
+	}
+
+	@HystrixCommand(fallbackMethod = "registerFallBack")
+	public User registerUser(User user) {
+		return this.inMemoryDatabase.registerUser(user);
+	}
+
+	@HystrixCommand(fallbackMethod = "getUserByTokenFallBack")
+	public User getUserByToken(String userToken) {
+		return inMemoryDatabase.getUserByToken(userToken);
+	}
+
+	public String registerFallBack() {
+		return "Fallback for registration.";
+	}
+
+	public String getUserByTokenFallBack() {
+		return "FallBack for getting user by token";
+	}
+
+}
